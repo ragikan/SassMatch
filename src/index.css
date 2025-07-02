@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap')
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+
+}
+
+
+.dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.sparkly {
+  background: linear-gradient(90deg, #ff9aeb, #ffa8a8, #ffd6a5);
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5), 0 0 20px rgba(255, 105, 180, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sparkly:hover {
+  background: linear-gradient(90deg, #ffa8a8, #ff9aeb, #ffd6a5);
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.8), 0 0 30px rgba(255, 105, 180, 0.5);
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+/*.avatar-bubble {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  background-color: #1f2937; /* Tailwind's gray-900 */
+  /*border: 3px solid #ec4899; /* Tailwind's pink-500 */
+  /*box-shadow: 0 0 20px 4px rgba(236, 72, 153, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.avatar-bubble:hover {
+  box-shadow: 0 0 25px 6px rgba(236, 72, 153, 0.8);
+}*/
+
+.avatar-glow {
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.6), 0 0 40px rgba(255, 105, 180, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.avatar-glow:hover {
+  box-shadow: 0 0 25px rgba(255, 105, 180, 0.8), 0 0 50px rgba(255, 105, 180, 0.5);
+  cursor: pointer;
+}
+
+
+.modal-glow {
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.6), 0 0 5px rgba(255, 182, 193, 0.4);
+}
+
+
+
+
+
+.sparkly1 {
+  background: linear-gradient(135deg, #ff8ac9, #ffc3e6);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(255, 170, 255, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+.sparkly1:hover {
+  box-shadow: 0 0 25px rgba(255, 200, 255, 0.8);
+  transform: scale(1.05);
+}
+
+
+
+
+
+.shimmer {
+  animation: shimmer 1.5s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% {
+    filter: brightness(1) drop-shadow(0 0 3px #ec4899);
+  }
+  50% {
+    filter: brightness(1.5) drop-shadow(0 0 10px #ec4899);
+  }
+  100% {
+    filter: brightness(1) drop-shadow(0 0 3px #ec4899);
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Sparkly button with pink-green and pink-yellow undertones */
+/* MATCH BUTTON: Pink-Green-Peach */
+.sparkly-match {
+  background: linear-gradient(90deg, #ffb1d6, #c1f5d4, #ffe3b3);
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 12px rgba(255, 177, 214, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sparkly-match:hover {
+  background: linear-gradient(90deg, #ffe3b3, #ffb1d6, #c1f5d4);
+  box-shadow: 0 0 20px rgba(255, 177, 214, 0.7);
+  transform: scale(1.05);
+}
+
+
+/* NOPE BUTTON: Pink-Coral-Rose */
+.sparkly-nope {
+  background: linear-gradient(90deg, #fcb6c9, #fda9a0, #fddde6);
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 12px rgba(252, 182, 201, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sparkly-nope:hover {
+  background: linear-gradient(90deg, #fddde6, #fcb6c9, #fda9a0);
+  box-shadow: 0 0 20px rgba(252, 182, 201, 0.7);
+  transform: scale(1.05);
+}
