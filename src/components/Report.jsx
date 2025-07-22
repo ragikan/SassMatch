@@ -2,27 +2,39 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { matchBreakdown } from './MatchBreakdown'; // wherever your breakdown file is
 
-export default function Report({ theyAreYourType, youAreTheirType }) {
+export default function Report({ theyAreYourType, youAreTheirType, BisAType}) {
   const sortedTheyAreYourType = [...theyAreYourType].sort((a, b) => a.difference - b.difference);
-  const sortedYouAreTheirType = [...youAreTheirType].sort((a, b) => a.difference - b.difference);
+  
 
-  const extremeTheyAre = [
-    ...sortedTheyAreYourType.slice(0, 3),
-    ...sortedTheyAreYourType.slice(-3),
-  ];
-  const extremeYouAre = [
-    ...sortedYouAreTheirType.slice(0, 3),
-    ...sortedYouAreTheirType.slice(-3),
-  ];
+  let extremeTheyAre = [];
+
+if (BisAType >= 80) {
+  extremeTheyAre = sortedTheyAreYourType.slice(0, 6);
+} else if (BisAType >= 60) {
+  extremeTheyAre = sortedTheyAreYourType.slice(1, 7);
+} else if (BisAType >= 40) {
+  extremeTheyAre = sortedTheyAreYourType.slice(2, 8);
+} else if (BisAType >= 20) {
+  extremeTheyAre = sortedTheyAreYourType.slice(3, 9);
+} else {
+  extremeTheyAre = sortedTheyAreYourType.slice(4, 10);
+}
+
+  
 
   const flattenedBreakdown = matchBreakdown.flat();
 
-const getSentence = ({ id, value, difference }) => {
+const getSentence = ({ id, value, difference, matchValue }) => {
   const found = flattenedBreakdown.find(
-    (line) => line.id === id && line.value === value && line.difference === difference
+    (line) =>
+      line.id === id &&
+      line.value === value &&
+      line.matchValue === matchValue &&
+      line.difference === difference
   );
   return found?.sentence || "This match is too chaotic to decode 😵‍💫";
 };
+
 
 
 
@@ -35,18 +47,14 @@ const getSentence = ({ id, value, difference }) => {
     How much *they* are your type 👀
   </h3>
   <p className="text-sm text-white bg-gray-700 p-4 rounded-lg leading-relaxed">
-    {extremeTheyAre.map((entry) => getSentence(entry)).join(' ')}
+    {extremeTheyAre.map((entry) => getSentence(entry)).join('\n')}
   </p>
 </div>
 
-<div>
-  <h3 className="text-lg font-semibold text-pink-200 mb-3">
-    How much *you* are their type 🤓
-  </h3>
-  <p className="text-sm text-white bg-gray-700 p-4 rounded-lg leading-relaxed">
-    {extremeYouAre.map((entry) => getSentence(entry)).join(' ')}
-  </p>
-</div>
+
+
+
+
     </div>
   );
 }

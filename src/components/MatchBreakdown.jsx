@@ -1,320 +1,543 @@
 export const matchBreakdown = [
-   [{ id: 1, value: 1, difference: 0, sentence: "Emo twins alert. You both talk it out like main characters in a healing arc." },
-  { id: 1, value: 1, difference: 1, sentence: "They want communication, you want solo missions. Cue the 'we need to talk' texts." },
-  { id: 1, value: 1, difference: 2, sentence: "They want depth, you bring memes. This match is 'emotional support clown' coded." },
-  { id: 1, value: 1, difference: 3, sentence: "They ask for calm honesty. You bottle things like it’s vintage rage." },
-  { id: 1, value: 1, difference: 4, sentence: "They want connection. You shut down like a dying laptop. RIP convo." },
+   [
+  {
+    id: 1,
+    value: 1,
+    matchValue: 1,
+    difference: 0,
+    sentence: "You’d emotionally suffocate each other and call it love — no boundaries, just obsession.. Except you both lowkey like it."
+  },
+  {
+    id: 1,
+    value: 1,
+    matchValue: 2,
+    difference: 1,
+    sentence: "You’d feel everything together — intense, chaotic, but at least you’d never feel alone in it."
+  },
+  {
+    id: 1,
+    value: 1,
+    matchValue: 3,
+    difference: 2,
+    sentence: "They’d soothe you, but you’d constantly feel too much and fear they’ll pull away."
+  },
+  {
+    id: 1,
+    value: 1,
+    matchValue: 4,
+    difference: 3,
+    sentence: "They’d avoid depth, You’d chase it — you’d always feel dismissed and invisible."
+  },
+  {
+    id: 1,
+    value: 1,
+    matchValue: 5,
+    difference: 4,
+    sentence: "You’d beg for connection while they emotionally ghost you — pure pain, zero payoff."
+  }
+,
 
-  { id: 1, value: 2, difference: 0, sentence: "Both of you ghost problems. It’s peaceful... until one of you snaps in 6 months." },
-  { id: 1, value: 2, difference: 1, sentence: "They vibe chill, you want to talk. One’s on airplane mode, the other’s writing essays." },
-  { id: 1, value: 2, difference: 2, sentence: "They like soft detachment. You bring emotional slapstick. It’s sitcom meets trauma." },
-  { id: 1, value: 2, difference: 3, sentence: "They want mellow. You explode like it’s the season finale. Dramaaaaa." },
-  { id: 1, value: 2, difference: 4, sentence: "They want to vibe in peace. You spiral in silence. It's quiet... too quiet." },
+  
 
-  { id: 1, value: 3, difference: 0, sentence: "They like independent vibes, and you’re already gone. No texts, just peace ✌️." },
-  { id: 1, value: 3, difference: 1, sentence: "They want chill, you’re lowkey vanishing. Are you dating or playing hide-and-seek?" },
-  { id: 1, value: 3, difference: 2, sentence: "They want calm coping, you ghost with style. Someone grab a map." },
-  { id: 1, value: 3, difference: 3, sentence: "They want no drama. You’re a whole emotional plot twist waiting to happen." },
-  { id: 1, value: 3, difference: 4, sentence: "They expect distance. You serve full emotional black hole. Not even light escapes." },
+  {
+    id: 1,
+    value: 2,
+    matchValue: 2,
+    difference: 0,
+    sentence: "You’d feel safe falling apart together — messy, intense, but full of raw, honest connection."
+  },
+  {
+    id: 1,
+    value: 2,
+    matchValue: 1,
+    difference: 1,
+    sentence: "They’d always reach for you first, and you’d finally feel wanted and emotionally needed."
+  },
+  {
+    id: 1,
+    value: 2,
+    matchValue: 3,
+    difference: 1,
+    sentence: "They’d keep you grounded, but you might overthink their calm as emotional distance."
+  },
+  {
+    id: 1,
+    value: 2,
+    matchValue: 4,
+    difference: 2,
+    sentence: "They’d check out emotionally and you’d feel like you're caring too much all alone."
+  },
+  {
+    id: 1,
+    value: 2,
+    matchValue: 5,
+    difference: 3,
+    sentence: "you’d crave closeness, they’d shut down — you’d feel invisible, rejected, and emotionally abandoned."
+  },
 
-  { id: 1, value: 4, difference: 0, sentence: "Both of you cope with jokes. Welcome to the comedy club of suppressed pain." },
-  { id: 1, value: 4, difference: 1, sentence: "They make jokes, you vanish. It’s giving 'lol’ followed by 2 weeks of silence." },
-  { id: 1, value: 4, difference: 2, sentence: "They want clowning, you want connection. One's laughing, the other's crying inside." },
-  { id: 1, value: 4, difference: 3, sentence: "They crack jokes, you crack emotionally. Haha... help." },
-  { id: 1, value: 4, difference: 4, sentence: "They joke, you shut down. It’s vibes and vibes only. No feelings allowed." },
 
-  { id: 1, value: 5, difference: 0, sentence: "They like a little drama. You *are* the drama. Match made in chaos heaven." },
-  { id: 1,  value: 5, difference: 1, sentence: "They want spicy moods. You dip out emotionally. They’ll miss the drama... and you." },
-  { id: 1, value: 5, difference: 2, sentence: "They want theatrics, you deliver stand-up comedy. Crying and laughing—same thing, right?" },
-  { id: 1, value: 5, difference: 3, sentence: "They crave messiness, you’re on silent mode. This show got cancelled mid-season." },
-  { id: 1, value: 5, difference: 4, sentence: "They want emotional fireworks. You bring dead air. Static energy at best." }
+
+  
+  {
+    id: 1,
+    value: 3,
+    matchValue: 3,
+    difference: 0,
+    sentence: "You’d meet in the middle — calm, open, steady. No games, just emotional safety."
+  },
+  {
+    id: 1,
+    value: 3,
+    matchValue: 2,
+    difference: 1,
+    sentence: "You’d support them through their storms, but might feel emotionally drained over time."
+  },
+  {
+    id: 1,
+    value: 3,
+    matchValue: 4,
+    difference: 1,
+    sentence: "You’d give each other space, but might avoid deeper connection unless you push yourselves."
+  },
+  {
+    id: 1,
+    value: 3,
+    matchValue: 1,
+    difference: 2,
+    sentence: "They’d cling, You’d feel smothered — like you have to manage their emotions constantly."
+  },
+  {
+    id: 1,
+    value: 3,
+    matchValue: 5,
+    difference: 2,
+    sentence: "You’d hold space, they’d disappear — you are secure, not a ghost chaser."
+  }
+,
+
+  
+  {
+    id: 1,
+    value: 4,
+    matchValue: 4,
+    difference: 0,
+    sentence: "You’d both need space — no pressure, no drama, just peace and parallel healing."
+  },
+  {
+    id: 1,
+    value: 4,
+    matchValue: 3,
+    difference: 1,
+    sentence: "They’d respect your space but still bring warmth — you could feel safe without shutting down."
+  },
+  {
+    id: 1,
+    value: 4,
+    matchValue: 5,
+    difference: 1,
+    sentence: "You’d coexist fine, but the lack of emotional depth frpm them might leave you feeling disconnected."
+  },
+  {
+    id: 1,
+    value: 4,
+    matchValue: 2,
+    difference: 2,
+    sentence: "They’d need too much too fast — you’d pull away and they'd spiral. Constant tension."
+  },
+  {
+    id: 1,
+    value: 4,
+    matchValue: 1,
+    difference: 3,
+    sentence: "They’d smother you with emotional needs — you’d shut down just to survive the intensity."
+  }
+,
+
+  
+  {
+    id: 1,
+    value: 5,
+    matchValue: 5,
+    difference: 0,
+    sentence: "No one asks too much, no one expects too much. You both mind your own business and coexist peacefully."
+  },
+  {
+    id: 1,
+    value: 5,
+    matchValue: 4,
+    difference: 1,
+    sentence: "They’d keep it light and low-maintenance — no emotional pressure, just easy-going silence."
+  },
+  {
+    id: 1,
+    value: 5,
+    matchValue: 3,
+    difference: 2,
+    sentence: "They’d try to connect emotionally, and you might  respect it… but probably stay a little distant."
+  },
+  {
+    id: 1,
+    value: 5,
+    matchValue: 2,
+    difference: 3,
+    sentence: "They’d overwhelm you with feelings — you’d shut down, they’d cry, and it’d get messy fast."
+  },
+  {
+    id: 1,
+    value: 5,
+    matchValue: 1,
+    difference: 4,
+    sentence: "They’d need constant closeness and emotional repair — you’d disappear emotionally (and maybe physically)."
+  }
+
    ],
 
   
-  [ { id: 2, value: 1, difference: 0, sentence: "You both obsessively check in. Congrats, you’ve just trauma-bonded — romantically." },
-  { id: 2, value: 1, difference: 1, sentence: "You love constant updates, they meme-drop and dip. This is ‘clingy meets chaotic neutral’ energy." },
-  { id: 2, value: 1, difference: 2, sentence: "You bring full attention, they prefer mysterious acts of service. You're a rom-com, they’re an indie film." },
-  { id: 2, value: 1, difference: 3, sentence: "You’re emotionally available, they spiral and demand WiFi-level attention. May the force be with you." },
-  { id: 2, value: 1, difference: 4, sentence: "You’re transparent AF. They’re giving ‘Decode Me Like A Side Quest.’ Good luck, soldier." },
+  [ 
+  
+  { id: 2, value: 1, matchValue: 1, difference: 0, sentence: "You’d instantly over-apologize, over-care, and spiral into love. Unhinged? Yes. Deeply loyal? Also yes." },
+  { id: 2, value: 1, matchValue: 2, difference: 1, sentence: "They’d keep doubting, you’d keep fixing — you both would cry, hug, then dissect it for hours." },
+  { id: 2, value: 1, matchValue: 3, difference: 2, sentence: "They’d be calm, and you’d feel a bit crazy — but maybe that’s what you need." },
+  { id: 2, value: 1, matchValue: 4, difference: 3, sentence: "They’d shut down quietly. you’d spiral louder. Eventually you’d feel needy and ashamed for needing more." },
+  { id: 2, value: 1, matchValue: 5, difference: 4, sentence: "you’d beg for repair, they’d call it “drama.” It’d feel like being punished for having feelings." },
 
-  { id: 2, value: 2, difference: 0, sentence: "Both of you flirt via memes and sarcasm. Relationship status: shitposting soulmates." },
-  { id: 2, value: 2, difference: 1, sentence: "You send memes, they spam messages. You’re both loud — but in *very* different languages." },
-  { id: 2, value: 2, difference: 2, sentence: "You're chaos-coded, they're silent affection. This is enemies-to-lovers waiting to happen." },
-  { id: 2, value: 2, difference: 3, sentence: "You joke, they cling. They want cuddles, you send TikToks. Mismatch, but spicy." },
-  { id: 2, value: 2, difference: 4, sentence: "You bring loud love, they want clues and puzzles. You’re a tweet, they’re a novel." },
+  
+  { id: 2, value: 2, matchValue: 1, difference: 1, sentence: "They’ll try to fix everything fast. you’ll panic less. Feels clingy, but safe. we think you’ll take it." },
+  { id: 2, value: 2, matchValue: 2, difference: 0, sentence: "They’ll spiral with you. No judgment. Just mutual overthinking and holding each other through the mess." },
+  { id: 2, value: 2, matchValue: 3, difference: 1, sentence: "They’ll stay calm while you wobble. It might feel slow, but they won’t leave you hanging." },
+  { id: 2, value: 2, matchValue: 4, difference: 2, sentence: "They’ll go silent when you need warmth. you’ll cry alone and think you're being “too much.”" },
+  { id: 2, value: 2, matchValue: 5, difference: 3, sentence: "They’ll say “it’s not that deep.” you’ll spiral alone, feel stupid, and never bring things up again." },
 
-  { id: 2, value: 3, difference: 0, sentence: "You both love lowkey gestures. Silent, soft, sneaky love — like love notes for the soul." },
-  { id: 2, value: 3, difference: 1, sentence: "You’re subtle, they want playful banter. This might need subtitles." },
-  { id: 2, value: 3, difference: 2, sentence: "Both quiet, but different. You gift socks, they send memes. One says 'I love you' with tea, the other with chaos." },
-  { id: 2, value: 3, difference: 3, sentence: "You’re a soft whisper, they’re a code-red cling-a-thon. Wear protection." },
-  { id: 2, value: 3, difference: 4, sentence: "You’re thoughtful, they’re... confusing on purpose. This is dating a cryptic crossword." },
+  
+  { id: 2, value: 3, matchValue: 1, difference: 2, sentence: "They’ll overdo everything. you’ll ask for one convo, they’ll bring a six-step emotional PowerPoint." },
+  { id: 2, value: 3, matchValue: 2, difference: 1, sentence: "They’ll overanalyze everything. you’ll try to help, but you’ll secretly want to leave the room." },
+  { id: 2, value: 3, matchValue: 3, difference: 0, sentence: "Finally. Someone who doesn’t spiral or deflect. you’ll actually talk like adults and move forward." },
+  { id: 2, value: 3, matchValue: 4, difference: 1, sentence: "They’ll shut down while you reach in. It’s chill at first, then deeply frustrating long-term." },
+  { id: 2, value: 3, matchValue: 5, difference: 2, sentence: "you’ll ask to process, they’ll call it overthinking. you’ll both get annoyed, then quietly check out." },
 
-  { id: 2, value: 4, difference: 0, sentence: "Both of you spiral but mean well. Toxic but cute. You’ll cry together, probably while cuddling." },
-  { id: 2, value: 4, difference: 1, sentence: "You get clingy, they meme. You're mid-breakdown, they're sending cat videos. Feels illegal." },
-  { id: 2, value: 4, difference: 2, sentence: "You're spiraling, they’re ghost-gifting. You'll think they don’t care — they’re just shy behind the scenes." },
-  { id: 2, value: 4, difference: 3, sentence: "You want 24/7 intensity, they prefer soft clues. This is clingy x mysterious — wear a seatbelt." },
-  { id: 2, value: 4, difference: 4, sentence: "You're drowning in affection, they’re playing emotional hide-and-seek. You're a fire, they're fog." },
+  
+  { id: 2, value: 4, matchValue: 1, difference: 3, sentence: "They’ll try to fix feelings you're ignoring. you’ll avoid, they’ll panic, you’ll both short-circuit." },
+  { id: 2, value: 4, matchValue: 2, difference: 2, sentence: "They’ll keep revisiting the wound. you’ll zone out and wish they’d text a therapist instead." },
+  { id: 2, value: 4, matchValue: 3, difference: 1, sentence: "They’ll try to process, you’ll try to float. you’ll balance — unless they start pushing depth." },
+  { id: 2, value: 4, matchValue: 4, difference: 0, sentence: "You keep things light, give each other space, and somehow always find our way back." },
+  { id: 2, value: 4, matchValue: 5, difference: 1, sentence: "They’ll also skip the emotional mess. It’ll feel peaceful… until one of you fully checks out." },
 
-  { id: 2, value: 5, difference: 0, sentence: "You both flirt like emotionally unavailable villains. Love languages: disappearing & emotional whiplash." },
-  { id: 2, value: 5, difference: 1, sentence: "You're dodging feelings, they send memes. It’s giving ‘lol I love you (but never said it)’ vibes." },
-  { id: 2, value: 5, difference: 2, sentence: "You're a puzzle. They love soft effort. You’re chaos. They want a nap." },
-  { id: 2, value: 5, difference: 3, sentence: "You're flirting, ghosting, panicking. They just want hugs and validation. Can you provide?" },
-  { id: 2, value: 5, difference: 4, sentence: "Both love to emotionally vanish then blame each other. Relationship status: season 2 cliffhanger." }
+  
+  { id: 2, value: 5, matchValue: 1, difference: 4, sentence: "They’ll demand repair rituals. you’ll shut down. you’ll both resent each other for being too much." },
+  { id: 2, value: 5, matchValue: 2, difference: 3, sentence: "They’ll keep asking “Are we okay?” you’ll keep dodging. Soon they’ll feel insane, and you’ll feel cornered." },
+  { id: 2, value: 5, matchValue: 3, difference: 2, sentence: "They’ll want mild follow-up. you’ll give just enough to pass. It’ll work, but feel distant." },
+  { id: 2, value: 5, matchValue: 4, difference: 1, sentence: "They’ll respect the shutdown. you both will  emotionally vanish together while pretending you’re the chillest couple alive." },
+  { id: 2, value: 5, matchValue: 5, difference: 0, sentence: "They won’t pull, You won’t push. You’ll co-exist peacefully — in separate rooms, emotionally and physically." }
+
+
   ],
 
 
 
-  [{ id: 3, value: 1, difference: 0, sentence: "You're both here to talk it out ASAP — therapists would be proud, but drama lovers? Devastated." },
-  { id: 3, value: 1, difference: 1, sentence: "You’re speed-solving conflict, they’re chilling till vibes align. You’re Google Calendar, they’re a lava lamp." },
-  { id: 3, value: 1, difference: 2, sentence: "You want solutions, they want peace at all costs. You’ll be arguing solo while they manifest calm." },
-  { id: 3, value: 1, difference: 3, sentence: "You say 'let’s talk,' they say 'scream it out.' Congrats, your safe space just turned into a telenovela." },
-  { id: 3, value: 1, difference: 4, sentence: "You want clarity, they want *disappearance*. You’ll be texting novels while they’re deleting the app." },
+  [
+  
+  { id: 3, value: 1, matchValue: 1, difference: 0, sentence: "You’d both disappear from society and eat soup under blankets. Ideal retirement simulator. No complaints ever." },
+  { id: 3, value: 1, matchValue: 2, difference: 1, sentence: "Their little out-of-the-box moments might startle you — but don’t worry, it’s never a crowd." },
+  { id: 3, value: 1, matchValue: 3, difference: 2, sentence: "They’ll want to try something new now and then. You might have to leave your comfort cave occasionally." },
+  { id: 3, value: 1, matchValue: 4, difference: 3, sentence: "Their “casual hangout” will give you anxiety. You need plans to cancel, not people to call." },
+  { id: 3, value: 1, matchValue: 5, difference: 4, sentence: "You’ll be exhausted just watching them get ready. They need a party. you need peace." },
 
-  { id: 3, value: 2, difference: 0, sentence: "You both delay until BOOM — then it’s chaos o’clock. Honestly? Explosive but kind of iconic." },
-  { id: 3, value: 2, difference: 1, sentence: "You delay, they want directness. You’re buffering, they’re refreshing. Good luck syncing." },
-  { id: 3, value: 2, difference: 2, sentence: "You stall then explode, they ignore and vibe. Conflict will be... postponed until the next lifetime." },
-  { id: 3, value: 2, difference: 3, sentence: "You’re internal rage, they’re external chaos. This fight's got layers — like an onion with trust issues." },
-  { id: 3, value: 2, difference: 4, sentence: "You storm in after days, they ghost on day one. You’re a slow burn, they’re a vanishing act." },
+  
+  { id: 3, value: 2, matchValue: 1, difference: 1, sentence: "They ground you when you get overstimulated. you bring the spark, they hold the glow." },
+  { id: 3, value: 2, matchValue: 2, difference: 0, sentence: "Feels like coming home. Same pace, same comfort zone. You’d sync without even trying." },
+  { id: 3, value: 2, matchValue: 3, difference: 1, sentence: "They nudge you out, but never too far. Balance of stillness and soft motion." },
+  { id: 3, value: 2, matchValue: 4, difference: 2, sentence: "You’ll smile through your group hangout sessions with their friends, but your social battery’s panicking in the group chat corner." },
+  { id: 3, value: 2, matchValue: 5, difference: 3, sentence: "Their night starts when your ends. You’ll be in pajamas while they’re ordering tequila shots." },
 
-  { id: 3, value: 3, difference: 0, sentence: "You both bottle it up. Silent tension, deep sighs, and cryptic Instagrams — it’s giving ‘muted war zone.’" },
-  { id: 3, value: 3, difference: 1, sentence: "You bury it, they chill and wait. This might work — if neither of you ever speaks again." },
-  { id: 3, value: 3, difference: 2, sentence: "You’re both into conflict suppression — but their version comes with less emotional buildup. One of you’s simmering, one’s just napping." },
-  { id: 3, value: 3, difference: 3, sentence: "You're swallowing rage, they're having a meltdown. It's the 'calm outside, chaos inside' pipeline." },
-  { id: 3, value: 3, difference: 4, sentence: "You’re emotionally constipated, they’re emotionally absent. Together you make... absolutely no progress." },
+ 
+  { id: 3, value: 3, matchValue: 1, difference: 2, sentence: "You’d get cabin fever. They’d flinch at the word “plans.” You might need some movement, babe." },
+  { id: 3, value: 3, matchValue: 2, difference: 1, sentence: "You’ll coax them out for plans sometimes, but honestly, their quiet may make you feel safe." },
+  { id: 3, value: 3, matchValue: 3, difference: 0, sentence: "They speak your language — chill with room to move. This feels like rhythm, not routine." },
+  { id: 3, value: 3, matchValue: 4, difference: 1, sentence: "They’re more buzz than you, but not overwhelming. You’ll join them in their shenaingans — then tap out." },
+  { id: 3, value: 3, matchValue: 5, difference: 2, sentence: "You like fun — not full send. They’d drag you out for a party while you'are still yawning." },
 
-  { id: 3, value: 4, difference: 0, sentence: "You both go off, cry a little, then eat Maggi. Dysfunctional? Yes. Effective? Also yes." },
-  { id: 3, value: 4, difference: 1, sentence: "You yell-cry, they wait it out. You’re passionate, they’re lowkey terrified. Cute." },
-  { id: 3, value: 4, difference: 2, sentence: "You bring intensity, they bring silence. You’ll be sobbing — they’ll be gone for a walk." },
-  { id: 3, value: 4, difference: 3, sentence: "You want drama, they want even more. Fire meets gasoline. Reality show when?" },
-  { id: 3, value: 4, difference: 4, sentence: "You scream, they ghost. This is like arguing with a puff of smoke. Poof!" },
+  
 
-  { id: 3, value: 5, difference: 0, sentence: "You both ghost post-conflict. It’s giving ✨vanishing couple✨. At least you won’t text your exes... oh wait." },
-  { id: 3, value: 5, difference: 1, sentence: "You’re Casper with attachment issues, they want conversations. You’re both confused how this didn’t work." },
-  { id: 3, value: 5, difference: 2, sentence: "You disappear, they pretend it's fine. Congratulations — you're dating a denial sandwich." },
-  { id: 3, value: 5, difference: 3, sentence: "You ghost, they explode. You may actually be their villain origin story." },
-  { id: 3, value: 5, difference: 4, sentence: "You’re both emotionally MIA. This relationship’s plot twist is... silence." }
-  ],
+  { id: 3, value: 4, matchValue: 1, difference: 3, sentence: "They’ll cancel plans You haven’t made yet. You’ll feel like a golden retriever in a cage." },
+  { id: 3, value: 4, matchValue: 2, difference: 2, sentence: "Sweet vibe, but You’ll get restless fast. You need more than soup and background Netflix to enjoy life unlike them." },
+  { id: 3, value: 4, matchValue: 3, difference: 1, sentence: "They’re calmer than you, but they’ll still say yes to plans. You’d find a nice groove." },
+  { id: 3, value: 4, matchValue: 4, difference: 0, sentence: " Congratulations! you finally found someone who gets the thrill of last-minute plans without turning it into Coachella." },
+  { id: 3, value: 4, matchValue: 5, difference: 1, sentence: "They're fun af — but ypu’ll need a recharge while they’re still ordering espresso martinis." },
 
-
-  [{ id: 4, value: 1, difference: 0, sentence: "Both of you want that 'text me when you breathe' vibe. Your phones might overheat from all that love." },
-  { id: 4, value: 1, difference: 1, sentence: "You want constant updates, they just want meme pings. You’re a podcast, they’re a TikTok." },
-  { id: 4, value: 1, difference: 2, sentence: "You’re a daily soap, they’re a Sunday newspaper. You’ll text novels, they’ll react with 👍." },
-  { id: 4, value: 1, difference: 3, sentence: "You want 24/7 presence, they want spiritual silence till 11PM. Opposites may attract… or implode." },
-  { id: 4, value: 1, difference: 4, sentence: "You want constant closeness, they want to be your emotional Siamese twin. This might be a cult or a love story." },
-
-  { id: 4, value: 2, difference: 0, sentence: "Both of you want fun, chill, low-maintenance memeship. It’s giving ‘bestie soulmates who kiss sometimes.’" },
-  { id: 4, value: 2, difference: 1, sentence: "You're chill, they’re clingier. Get ready for ‘why didn’t you reply to my 4 texts and 3 voice notes?’ energy." },
-  { id: 4, value: 2, difference: 2, sentence: "You meme, they meditate. You’re trying to bond, they’re trying to not talk today." },
-  { id: 4, value: 2, difference: 3, sentence: "You’re here for banter, they’re here for poetry under moonlight. Vibe check failed." },
-  { id: 4, value: 2, difference: 4, sentence: "You're laid back, they want to build an emotional fortress together. You're a hammock, they're a bunker." },
-
-  { id: 4, value: 3, difference: 0, sentence: "You both thrive in ghost mode with occasional ‘wyd’ texts. This relationship runs on intuition and missed calls." },
-  { id: 4, value: 3, difference: 1, sentence: "You want silence, they want giggles. You’re chilling in a cave, they’re throwing memes at your cave wall." },
-  { id: 4, value: 3, difference: 2, sentence: "You like low interaction, they want peace *with* light effort. You may vibe… in parallel dimensions." },
-  { id: 4, value: 3, difference: 3, sentence: "You want zero pressure, they want occasional emotional check-ins. You're anti-cling, they're part-time therapist." },
-  { id: 4, value: 3, difference: 4, sentence: "You're spacing out, they’re fusing souls. This is like dating a marshmallow while you're a brick wall." },
-
-  { id: 4, value: 4, difference: 0, sentence: "You both want deep convos and strategic silence. It's like being in a love contract with soulful eye contact." },
-  { id: 4, value: 4, difference: 1, sentence: "You want 11PM TED Talks, they want memes at noon. Your vibe? Night owl philosopher meets lunch break jester." },
-  { id: 4, value: 4, difference: 2, sentence: "You're emotionally mysterious, they’re just peaceful. You’re a journal entry, they’re an empty inbox." },
-  { id: 4, value: 4, difference: 3, sentence: "You crave scheduled intimacy, they want to vanish until Mercury retrograde. Chaos meets confusion." },
-  { id: 4, value: 4, difference: 4, sentence: "You want poetic rhythms, they want spiritual enmeshment. Together? One art student dating a cult leader." },
-
-  { id: 4, value: 5, difference: 0, sentence: "You both want to morph into each other’s skin. Co-dependency? Maybe. Magical? Absolutely." },
-  { id: 4, value: 5, difference: 1, sentence: "You want fusion, they want connection. Close enough to be spicy, far enough to not suffocate... probably." },
-  { id: 4, value: 5, difference: 2, sentence: "You're ready to share passwords, they’re still enjoying solitude. You’re a relationship, they’re a vibe." },
-  { id: 4, value: 5, difference: 3, sentence: "You want full immersion, they want occasional moonlit bonding. This is couple goals vs. couple boundaries." },
-  { id: 4, value: 5, difference: 4, sentence: "You're here to merge souls, they’re vibing with freedom. You’re two pages from wildly different books." }],
+  // Partner wants Disorganized
+  { id: 3, value: 5, matchValue: 1, difference: 4, sentence: "They’ll call your plans “exhausting” and “too much.” You’ll feel too loud, too often." },
+  { id: 3, value: 5, matchValue: 2, difference: 3, sentence: "They'd be the 'let's chill' to your 'let's dance'. You'll start planning things alone. You'd crave energy they never offer" },
+  { id: 3, value: 5, matchValue: 3, difference: 2, sentence: "They’ll tag along sometimes, but they’ll need recovery days.Your thrill might feel overwhelming to them — they’ll pace you down unintentionally." },
+  { id: 3, value: 5, matchValue: 4, difference: 1, sentence: "You’ll be the spark they need. You’ll do the initiating, they’ll vibe with it. Slight effort, worth the payoff." },
+  { id: 3, value: 5, matchValue: 5, difference: 0, sentence: "You’re both chaos-coded. You’ll say “Let’s bounce for the party” and they’ll already be in the cab." }
+]
+,
 
 
+  [
+ 
+  { id: 4, value: 1, matchValue: 1, difference: 0, sentence: "You need reassurance, and they dodge compliments too. You’d both quietly freak out, then hug too long." },
+  { id: 4, value: 1, matchValue: 2, difference: 1, sentence: "You panic out loud. They panic in silence. Together? Spiral buddies with matching nervous systems." },
+  { id: 4, value: 1, matchValue: 3, difference: 2, sentence: "You’d need comfort. They’d shrug it off. You’d start fights. They’d go make toast unbothered." },
+  { id: 4, value: 1, matchValue: 4, difference: 3, sentence: "You’d be spiraling if someone flirts with them. They’d be saying “trust is key” and moving on." },
+  { id: 4, value: 1, matchValue: 5, difference: 4, sentence: "You crave reassurance. They’re busy processing self-worth. You’d cry. They’d breathe deeply. Chaos. Therapy. Exit." },
 
-  [{ id: 5, value: 1, difference: 0, sentence: "Both of you flirt like adults with jobs and healthy boundaries. Honestly… boring for SassMatch, but iconic for life." },
-  { id: 5, value: 1, difference: 1, sentence: "You're straight-up, they want sass. You say 'I like you,' they’re waiting for a roast first. Oop." },
-  { id: 5, value: 1, difference: 2, sentence: "You're giving CEO energy, they want shy blushing cutie energy. You’re LinkedIn, they’re Tumblr." },
-  { id: 5, value: 1, difference: 3, sentence: "You say it directly, they want you to obsess from the shadows. They're romanticizing your Instagram likes." },
-  { id: 5, value: 1, difference: 4, sentence: "You're ‘no games,’ they’re a walking paradox. You might feel like you're flirting with a Rubik’s cube." },
+  
+  { id: 4, value: 2, matchValue: 1, difference: 1, sentence: "They’re insecure too, but distract themselves. You’d overanalyze it together, but at least feel understood." },
+  { id: 4, value: 2, matchValue: 2, difference: 0, sentence: "You both act chill while spiraling. Quiet jealousy + delayed overthinking? It’s messy but beautifully mirrored." },
+  { id: 4, value: 2, matchValue: 3, difference: 1, sentence: "You overthink, they don’t. You’ll crave clarity; they’ll give calm. Not bad, but you’ll poke for reassurance." },
+  { id: 4, value: 2, matchValue: 4, difference: 2, sentence: "You’ll catch if someone flirts with them and wonder; they’ll brush it off like dust. You’ll feel slightly dismissed." },
+  { id: 4, value: 2, matchValue: 5, difference: 3, sentence: "They’ll bask in attention. You’ll silently combust. You'll both spiral, but they’ll call it “grounding." },
 
-  { id: 5, value: 2, difference: 0, sentence: "Both of you flirt like you're besties in a sitcom — all roast, no toast. Relationship built on memes and chaos." },
-  { id: 5, value: 2, difference: 1, sentence: "You’re teasing, they’re confessing. You say ‘you’re dumb,’ they say ‘I like you.’ It’s not *not* working." },
-  { id: 5, value: 2, difference: 2, sentence: "You joke, they freeze. You're on Comedy Central, they’re on mute." },
-  { id: 5, value: 2, difference: 3, sentence: "You're roasting, they’re stalking. One of you is giggling, the other’s building a vision board in private." },
-  { id: 5, value: 2, difference: 4, sentence: "You’re a playful menace, they want emotional rollercoasters. You're playing Uno, they’re playing chess with fate." },
+  
+  { id: 4, value: 3, matchValue: 1, difference: 2, sentence: "You’ll miss their insecurity cues. They’ll think you don’t care. Misfires and weird silences incoming." },
+  { id: 4, value: 3, matchValue: 2, difference: 1, sentence: "They’ll overthink a little. You’ll brush it off. If they don’t push, it’ll work." },
+  { id: 4, value: 3, matchValue: 3, difference: 0, sentence: "You both keep it light. No spirals, no drama. Jealousy isn’t even in your shared vocabulary." },
+  { id: 4, value: 3, matchValue: 4, difference: 1, sentence: "You’ll both move on quick, but they lowkey care more than you. Slight mismatch in depth." },
+  { id: 4, value: 3, matchValue: 5, difference: 2, sentence: "You’ll forget if someone flirts with them  in 10 mins. They’ll be spiritually unpacking it till next Thursday." },
 
-  { id: 5, value: 3, difference: 0, sentence: "Both of you flirt like middle schoolers in denial. Expect eye contact, panic, and running away." },
-  { id: 5, value: 3, difference: 1, sentence: "You're shy, they’re a sass master. You blink nervously, they send you memes about dying alone." },
-  { id: 5, value: 3, difference: 2, sentence: "You’re awkward, they’re awkward. This is a rom-com where both leads think the other hates them." },
-  { id: 5, value: 3, difference: 3, sentence: "You're shy, they’re stalking. You’re trying not to stare, they’ve zoomed into your 2019 vacation pics." },
-  { id: 5, value: 3, difference: 4, sentence: "You're awkward, they’re chaos. You're a whisper, they're a fire alarm." },
+  
+  { id: 4, value: 4, matchValue: 1, difference: 3, sentence: "You’d crave maturity. They dodge, deflect, and internalize. It’ll feel like babysitting emotional landmines in silence." },
+  { id: 4, value: 4, matchValue: 2, difference: 2, sentence: "You’ll move on. They’ll quietly stew. You’ll think everything’s fine while they’re mentally rewriting reality." },
+  { id: 4, value: 4, matchValue: 3, difference: 1, sentence: "You trust; they detach. Emotionally minimalist, but it works. Neither of you needs constant reassurance." },
+  { id: 4, value: 4, matchValue: 4, difference: 0, sentence: "You both notice what matters, skip what doesn’t. Chill minds, calm hearts. No one’s spiraling." },
+  { id: 4, value: 4, matchValue: 5, difference: 1, sentence: "They feel more deeply than you, but they’re grounded. You’ll respect their quiet, not neediness." },
 
-  { id: 5, value: 4, difference: 0, sentence: "Both of you flirt like digital detectives. Instagram views = intimacy. It’s the love language of Gen Z spies." },
-  { id: 5, value: 4, difference: 1, sentence: "You lurk and like, they say it to your face. You’re playing The Sims, they’re playing Cards Against Humanity." },
-  { id: 5, value: 4, difference: 2, sentence: "You're obsessed quietly, they’re shy IRL. You’ll both be in love and absolutely no one will know." },
-  { id: 5, value: 4, difference: 3, sentence: "You drop hints, they explode. You’re a trail of clues, they’re a musical number about feelings." },
-  { id: 5, value: 4, difference: 4, sentence: "You hint, they spiral. One of you is obsessed, the other is in therapy because of it. Balance?" },
-
-  { id: 5, value: 5, difference: 0, sentence: "You both flirt by running away after insulting each other. It’s giving Shakespeare meets emotional avoidance." },
-  { id: 5, value: 5, difference: 1, sentence: "You flee, they confess. You say ‘ew,’ they say ‘marry me.’ Beautiful chaos." },
-  { id: 5, value: 5, difference: 2, sentence: "You confuse, they freeze. Honestly, this might be the most painfully cute disaster ever." },
-  { id: 5, value: 5, difference: 3, sentence: "You push-pull, they hint from afar. Y’all flirting like two black cats in a mirror." },
-  { id: 5, value: 5, difference: 4, sentence: "You both flirt like emotionally unavailable cartoon characters. This is unhinged soulmate behavior." }],
+  // Wants Full Fusion (Enmeshed)
+  { id: 4, value: 5, matchValue: 1, difference: 4, sentence: "They deflect everything. You’re too emotionally fluent for this passive chaos. Constant reassurance? Not your love language." },
+  { id: 4, value: 5, matchValue: 2, difference: 3, sentence: "You’ll be the anchor they cling to — but over time, their rumination might exhaust you." },
+  { id: 4, value: 5, matchValue: 3, difference: 2, sentence: "Emotionally chill, but maybe a little too casual. You’ll bring the depth — they’ll keep it breezy." },
+  { id: 4, value: 5, matchValue: 4, difference: 1, sentence: "They don’t overprocess, and neither do you. It’s soft-spoken trust. Calm waters, no drama, pure alignment." },
+  { id: 4, value: 5, matchValue: 5, difference: 0, sentence: "You both slow down and savor. Emotionally grounded duo. Present, calm, no second-guessing. Grown-ass love." }
+]
+,
 
 
 
-  [{ id: 6, value: 1, difference: 0, sentence: "You both radiate weighted blanket energy. This love could fix attachment styles." },
-  { id: 6, value: 1, difference: 1, sentence: "You’re peace, they want chaos. They said they want calm, but they meant ‘passionate yelling at 2am.’" },
-  { id: 6, value: 1, difference: 2, sentence: "You’re chill, they’re *extra* chill. You might both vibe into emotional hibernation." },
-  { id: 6, value: 1, difference: 3, sentence: "You're safety, they want spice. Are they trying to turn a therapy session into a reality show?" },
-  { id: 6, value: 1, difference: 4, sentence: "You’re grounded, they want chaos roulette. May the odds be ever in your emotional favor." },
+  [
+  
+  { id: 5, value: 1, matchValue: 1, difference: 0, sentence: "You both need space to breathe after chaos. No pressure, no poking. Silence feels like safety." },
+  { id: 5, value: 1, matchValue: 2, difference: 1, sentence: "They don’t push too hard. They process quietly too, just with a bit more inner structure." },
+  { id: 5, value: 1, matchValue: 3, difference: 2, sentence: "They won’t rush you, but they may emotionally drift while you’re still sorting your storm." },
+  { id: 5, value: 1, matchValue: 4, difference: 3, sentence: "They’ll try to soften the moment when you’d rather be left completely alone to recalibrate." },
+  { id: 5, value: 1, matchValue: 5, difference: 4, sentence: "They crave answers and emotional direction. Their urgency might overwhelm your need for stillness." },
 
-  { id: 6, value: 2, difference: 0, sentence: "You both bring emotional firecrackers. Breakups might be seasonal but the passion? Perennial." },
-  { id: 6, value: 2, difference: 1, sentence: "You bring fireworks, they want calm oceans. Hope they can swim." },
-  { id: 6, value: 2, difference: 2, sentence: "You bring thunder, they bring a cup of tea. Chaos meets calm—either balance or whiplash." },
-  { id: 6, value: 2, difference: 3, sentence: "You’re dramatic, they want mystique. Emotional theatre meets indie film noir." },
-  { id: 6, value: 2, difference: 4, sentence: "You’re an emotional symphony, they want dubstep surprises. It’s giving passionate confusion." },
+  // VALUE = 2 (They want playful teasing)
+  { id: 5, value: 2, matchValue: 1, difference: 1, sentence: "You both vanish into silence when life explodes. It's cold, but weirdly... kinda functional." },
+  { id: 5, value: 2, matchValue: 2, difference: 0, sentence: "Same storm, same sensors. You don't just survive chaos — you track it like weather analysts." },
+  { id: 5, value: 2, matchValue: 3, difference: 1, sentence: "They won't escalate, won’t soothe either. But hey, at least they’re not panicking in your face." },
+  { id: 5, value: 2, matchValue: 4, difference: 2, sentence: "They’ll bring soft vibes when you’re analyzing turbulence. Sweet, but they dodge the intensity you decode." },
+  { id: 5, value: 2, matchValue: 5, difference: 3, sentence: "Too loud, too fast. Their ‘let’s fix it now’ energy? Feels like an emotional ambush to you." },
 
-  { id: 6, value: 3, difference: 0, sentence: "You both bring a Netflix-and-nap vibe. This might be the most emotionally stable ship on SassMatch." },
-  { id: 6, value: 3, difference: 1, sentence: "You're calm, they want chaos. They say ‘non-reactive’ but mean ‘I need spice with my safety.’" },
-  { id: 6, value: 3, difference: 2, sentence: "You both might accidentally ghost each other out of respect. Peaceful, but too peaceful?" },
-  { id: 6, value: 3, difference: 3, sentence: "You’re chill, they want a dramatic monologue. Hope you brought popcorn." },
-  { id: 6, value: 3, difference: 4, sentence: "You’re mellow, they want *emotional Hunger Games*. Do you even stand a chance?" },
+  
+  { id: 5, value: 3, matchValue: 1, difference: 2, sentence: "You said “low energy,” not “emotional ghosting.” Their silence feels less peaceful, more personally offensive." },
+  { id: 5, value: 3, matchValue: 2, difference: 1, sentence: "They observe, not overwhelm. It’s calm with just enough depth to keep your brain from melting." },
+  { id: 5, value: 3, matchValue: 3, difference: 0, sentence: "Finally. Someone who scrolls, hydrates, and shuts up when the vibes are off. True soulmate energy." },
+  { id: 5, value: 3, matchValue: 4, difference: 1, sentence: "They’ll bring softness, not storms. A little poetic, but hey — still leagues better than chaos." },
+  { id: 5, value: 3, matchValue: 5, difference: 2, sentence: "Their 'Let's Fix this NOW' energy will fry your nervous system. You’re not built for battles, babe." },
 
-  { id: 6, value: 4, difference: 0, sentence: "You both love a good emotional whiplash. Twin flames or twin dramas? Let the saga begin." },
-  { id: 6, value: 4, difference: 1, sentence: "You're moody magic, they want grounded zen. Oil meet water." },
-  { id: 6, value: 4, difference: 2, sentence: "You're a fever dream, they’re a calm lake. This might feel like dating a yoga instructor while being a fire sign." },
-  { id: 6, value: 4, difference: 3, sentence: "You’re drama, they want low-key chaos. It’s unhinged—but make it compatible." },
-  { id: 6, value: 4, difference: 4, sentence: "You’re romantic chaos, they’re actual chaos. The vibe? Nuclear-level passion." },
+ 
+  { id: 5, value: 4, matchValue: 1, difference: 3, sentence: "You want comfort, they want silence. Congrats, you're dating a brick wall with emotional Wi-Fi issues." },
+  { id: 5, value: 4, matchValue: 2, difference: 2, sentence: "They’ll notice your sadness but probably write a poem about it instead of hugging you." },
+  { id: 5, value: 4, matchValue: 3, difference: 1, sentence: "They're chill but not checked out. You won’t get fireworks, but you’ll get folded laundry love." },
+  { id: 5, value: 4, matchValue: 4, difference: 0, sentence: "This is it. Soft words, slow hugs, and enough emotional bandwidth to wrap you in a blanket." },
+  { id: 5, value: 4, matchValue: 5, difference: 1, sentence: "They bring truth and tension, but they’ll show up. Expect forehead kisses between intense strategy meetings." },
 
-  { id: 6, value: 5, difference: 0, sentence: "You both give ‘mystery box with feelings inside.’ Intimacy will be a puzzle, but a hot one." },
-  { id: 6, value: 5, difference: 1, sentence: "You’re unpredictable, they want peace. Expect confusion, journaling, and maybe a playlist about betrayal." },
-  { id: 6, value: 5, difference: 2, sentence: "You bring cryptic energy, they bring cozy sweater vibes. This could work... if one of you learns emotional Morse code." },
-  { id: 6, value: 5, difference: 3, sentence: "You’re unreadable, they want drama. They’ll guess how you feel until they spiral." },
-  { id: 6, value: 5, difference: 4, sentence: "You’re both emotionally unpredictable. This is either soulmate chaos or a series of nervous breakdowns. No in-between." }],
-
-
-
-  [{ id: 7, value: 1, difference: 0, sentence: "You both stop the world when the other’s sad. You’re either soulmates or competing to be the emotional MVP." },
-  { id: 7, value: 1, difference: 1, sentence: "You rush in like an emotional ambulance, they just wanted quiet snacks and five feet of space. Awkward." },
-  { id: 7, value: 1, difference: 2, sentence: "You show up full-force, they lowkey wanted panic. You’re calm, they wanted chaos. Classic miscommunication." },
-  { id: 7, value: 1, difference: 3, sentence: "You dropped everything, they wanted everyone to leave. You're Romeo, they’re Elsa." },
-  { id: 7, value: 1, difference: 4, sentence: "You're all comfort, they wanted memes and mac & cheese. You're an emotional therapist; they wanted a clown." },
-
-  { id: 7, value: 2, difference: 0, sentence: "You both like soft space and emotional Wi-Fi signals. This love is subtle, but strong." },
-  { id: 7, value: 2, difference: 1, sentence: "You’re gently supportive, they wanted full sirens and cuddles. You're air, they wanted fire." },
-  { id: 7, value: 2, difference: 2, sentence: "You gave calm space, they spiraled and wanted panic bonding. Might wanna sync your emotional playlists." },
-  { id: 7, value: 2, difference: 3, sentence: "You’re like ‘I’m here if you need,’ they’re like ‘Don’t ever text me again.’ The vibe? Quiet confusion." },
-  { id: 7, value: 2, difference: 4, sentence: "You’re emotionally neutral, they want snacks and bad jokes. Emotional needs are… misfiring." },
-
-  { id: 7, value: 3, difference: 0, sentence: "You both panic when someone’s upset. This is a relationship built on mutual emotional flailing." },
-  { id: 7, value: 3, difference: 1, sentence: "You panic, they want calm help. You're crying, they’re like 'wait... I was the sad one?'" },
-  { id: 7, value: 3, difference: 2, sentence: "You spiral, they wanted peace. You're a hurricane, they’re meditating in a storm shelter." },
-  { id: 7, value: 3, difference: 3, sentence: "You melt down, they want space. This might be a vibes mismatch or a rom-com pilot." },
-  { id: 7, value: 3, difference: 4, sentence: "You panic, they want to laugh. The contrast is giving ‘sad clown meets comedy show.’" },
-
-  { id: 7, value: 4, difference: 0, sentence: "You both vanish when things get emotional. Catch you both hiding in different bathrooms during fights." },
-  { id: 7, value: 4, difference: 1, sentence: "You disappeared, they wanted soft presence. You’re Casper the Ghost; they needed Casper the Therapist." },
-  { id: 7, value: 4, difference: 2, sentence: "You dipped, they wanted cute panic. You ghosted, they hoped for a meltdown." },
-  { id: 7, value: 4, difference: 3, sentence: "Both of you need space, but one needed it gently. You're a wrecking ball of distance." },
-  { id: 7, value: 4, difference: 4, sentence: "You both retreat to your emotional bunkers. Very Cold War-core. Who's gonna break the silence?" },
-
-  { id: 7, value: 5, difference: 0, sentence: "You both deal with pain like chaotic besties. Laughter is love. Jokes > therapy." },
-  { id: 7, value: 5, difference: 1, sentence: "You brought the snacks, they wanted sobs and hugs. You’re sitcom, they’re soap opera." },
-  { id: 7, value: 5, difference: 2, sentence: "You made them laugh, they panicked. Your love language is stand-up, theirs is crying on the floor." },
-  { id: 7, value: 5, difference: 3, sentence: "You showed up with humor, they disappeared. You’re knocking on their heart, they locked the door." },
-  { id: 7, value: 5, difference: 4, sentence: "You joked, they joked—just in *wildly* different directions. One of you is healing, the other is trolling." }],
+  
+  { id: 5, value: 5, matchValue: 1, difference: 4, sentence: "You’re begging for a convo, they’re halfway into ghost mode. Conflict? They deleted the update." },
+  { id: 5, value: 5, matchValue: 2, difference: 3, sentence: "They clock the vibes but won’t touch them. You’ll be arguing with their third internal monologue." },
+  { id: 5, value: 5, matchValue: 3, difference: 2, sentence: "They won’t escalate—but they won’t push forward either. You’ll drag them through every 'we need to talk.'" },
+  { id: 5, value: 5, matchValue: 4, difference: 1, sentence: " They are Soft enough to calm you, steady enough to stay. They won’t run—but might whisper it." },
+  { id: 5, value: 5, matchValue: 5, difference: 0, sentence: "Same page, same pace. They’ll look you in the eye mid-storm and say “let’s fix this." }
+],
 
 
-  [{ id: 8, value: 1, difference: 0, sentence: "Look at you two—a mutual decisions duo! Relationship CEO and Co-CEO energy." },
-  { id: 8, value: 1, difference: 1, sentence: "You wanted collab, they wanted a boss. Guess you're now co-writing a power struggle." },
-  { id: 8, value: 1, difference: 2, sentence: "You wanted equality, they said 'I’m the captain now.' Mutiny pending." },
-  { id: 8, value: 1, difference: 3, sentence: "You wanted balance, they chose chaos. They’ll pick dinner, you’ll pick your battles." },
-  { id: 8, value: 1, difference: 4, sentence: "You came to co-lead, they came to vibe. You’re scheduling calendars, they’re manifesting vibes." },
 
-  { id: 8, value: 2, difference: 0, sentence: "You both wanna lead. Welcome to Relationship Hunger Games—may the best planner win." },
-  { id: 8, value: 2, difference: 1, sentence: "You took charge, they handed over the remote. A control freak’s dream." },
-  { id: 8, value: 2, difference: 2, sentence: "You wanna lead, they wanna lead. There are gonna be *duels* over dinner choices." },
-  { id: 8, value: 2, difference: 3, sentence: "You’re dominating, they’re selectively participating. It’s a democracy... sometimes." },
-  { id: 8, value: 2, difference: 4, sentence: "You’re full structure, they’re full ✨vibe✨. It’s giving ‘dictator dates the town jester.’" },
+  [
+  { id: 6, value: 1, matchValue: 1, difference: 0, sentence: "You crave peace, and they are peace. This is the nap-aligned, scroll-synced soulmate energy." },
+  { id: 6, value: 1, matchValue: 2, difference: 1, sentence: "They don’t drift, but they also don’t chase clocks. It’s the soft consistency you quietly crave." },
+  { id: 6, value: 1, matchValue: 3, difference: 2, sentence: "They’re dreamers, sure — but more poetic than passive. You’ll vibe, just at different paces." },
+  { id: 6, value: 1, matchValue: 4, difference: 3, sentence: "They self-reflect while you self-forget. You'll admire their growth, but hate the pressure it implies." },
+  { id: 6, value: 1, matchValue: 5, difference: 4, sentence: "You want someone unbothered by clocks. They build timelines. You’ll feel lazy, they’ll feel restless." },
 
-  { id: 8, value: 3, difference: 0, sentence: "You both want to be guided. Two passengers, no driver. Good luck out there." },
-  { id: 8, value: 3, difference: 1, sentence: "You’re chillin’, they’re controlling. You're a paper boat, they’re the storm." },
-  { id: 8, value: 3, difference: 2, sentence: "You handed the wheel, they said ‘me too.’ Guess we’re Ubering this relationship." },
-  { id: 8, value: 3, difference: 3, sentence: "You like guidance, they like deciding what they care about. It’s giving partial GPS." },
-  { id: 8, value: 3, difference: 4, sentence: "You’re floating, they’re freestyling. This isn’t a relationship, it’s a jam session." },
+  { id: 6, value: 2, matchValue: 1, difference: 1, sentence: "They’re a little too chill, but honestly? That no-pressure energy is exactly what soothes you." },
+  { id: 6, value: 2, matchValue: 2, difference: 0, sentence: "You said “no flash, just show up” — and they show up with snacks and steady vibes." },
+  { id: 6, value: 2, matchValue: 3, difference: 1, sentence: "Not consistent, but thoughtful. Their unpredictability feels warm, not reckless — like jazz instead of static." },
+  { id: 6, value: 2, matchValue: 4, difference: 2, sentence: "Too much soul work, not enough sitting still. You’ll feel seen, but also... evaluated constantly." },
+  { id: 6, value: 2, matchValue: 5, difference: 3, sentence: "You want “show up daily.” They want “scale the mountain.” You'll short-circuit each other's nervous systems." },
 
-  { id: 8, value: 4, difference: 0, sentence: "Whoever cares more leads? You both said that? Emotional roulette. Spin the wheel, babe." },
-  { id: 8, value: 4, difference: 1, sentence: "You lead by care levels, they lead by control. You’ll probably fight over who’s stressed enough to pick dinner." },
-  { id: 8, value: 4, difference: 2, sentence: "You assign leadership by vibes, they assign it by title. HR might need to intervene." },
-  { id: 8, value: 4, difference: 3, sentence: "You lead when it matters, they lead always. Passive-aggressive power play pending." },
-  { id: 8, value: 4, difference: 4, sentence: "You run on feelings, they run on astrology and chaos. Leadership? Never heard of her." },
+  { id: 6, value: 3, matchValue: 1, difference: 2, sentence: "You want wonder, not full dissociation. They’re so still, you’ll feel like the only one breathing." },
+  { id: 6, value: 3, matchValue: 2, difference: 1, sentence: "Steady, sweet, and simple — maybe not poetic, but they’re the calm backdrop your colors pop against." },
+  { id: 6, value: 3, matchValue: 3, difference: 0, sentence: "You wanted metaphors and soft chaos? Babe, they are the wandering poem you daydream about." },
+  { id: 6, value: 3, matchValue: 4, difference: 1, sentence: "They're soulful, but organized. Less “floaty magic,” more “scheduled healing.” It works... if you like structure." },
+  { id: 6, value: 3, matchValue: 5, difference: 2, sentence: "They'll plan their five-year roadmap. You’ll write a poem about moss. Neither of you feels seen." },
 
-  { id: 8, value: 5, difference: 0, sentence: "You both said 'what’s a decision?' Iconic. This love runs on pure chaos and snack runs." },
-  { id: 8, value: 5, difference: 1, sentence: "You’re vibing, they’re co-piloting. One of you is building IKEA furniture, the other is watching reels." },
-  { id: 8, value: 5, difference: 2, sentence: "You want no structure, they want the driver’s seat. You’re the wind, they’re a GPS." },
-  { id: 8, value: 5, difference: 3, sentence: "You’re ‘go with the flow’, they’re ‘I’ll care when I care’. Decisions might be extinct here." },
-  { id: 8, value: 5, difference: 4, sentence: "This match is pure chaos. No leaders, no plans, just vibes and 2AM pizza orders." }],
+  { id: 6, value: 4, matchValue: 1, difference: 3, sentence: "You crave rooted growth, not floaty loops. Their energy would feel like spiritual quicksand, honestly." },
+  { id: 6, value: 4, matchValue: 2, difference: 2, sentence: "Too flat. You’re seeking conscious self-expansion—they're just existing between snack breaks and vibes." },
+  { id: 6, value: 4, matchValue: 3, difference: 1, sentence: "They wander more than grow, but the poetic chaos speaks just enough to your gentle craving." },
+  { id: 6, value: 4, matchValue: 4, difference: 0, sentence: "You and them? Same wavelength, same softness. Slow Sundays, deep talks, inner work—you’d thrive quietly together." },
+  { id: 6, value: 4, matchValue: 5, difference: 1, sentence: "They’re more structured than you, but their steady climb still honors the soul-led pace you love." },
+
+  { id: 6, value: 5, matchValue: 1, difference: 4, sentence: "You’re craving a lighthouse. They’re a tumbleweed. The mismatch? Cosmic. You’d lose your mind in weeks." },
+  { id: 6, value: 5, matchValue: 2, difference: 3, sentence: "Too passive. You’re over here building legacies and they’re... reheating leftovers and vibing through life." },
+  { id: 6, value: 5, matchValue: 3, difference: 2, sentence: "They float prettily, but lack your fire. You’d adore their spirit—then slowly outgrow their pace." },
+  { id: 6, value: 5, matchValue: 4, difference: 1, sentence: "Not as structured, but still soul-led. Their growth has softness—but enough backbone to impress you." },
+  { id: 6, value: 5, matchValue: 5, difference: 0, sentence: "You’re literally describing them. Their quiet discipline? Your safe place. That vision? Yeah, you crave it." }
+],
+
+
+
+ [
+  
+  { id: 7, value: 1, matchValue: 1, difference: 0, sentence: "You’re both in your rom-com era. No overthinking, just magnetic vibes and zero emotional admin." },
+  { id: 7, value: 1, matchValue: 2, difference: 1, sentence: "They keep it light, you keep it fun. Vibe check passed — no breakdowns, just brunch plans." },
+  { id: 7, value: 1, matchValue: 3, difference: 2, sentence: "They want clarity, you want charm. If they read between lines, hope they bring a dictionary." },
+  { id: 7, value: 1, matchValue: 4, difference: 3, sentence: "They’ll say “I dreamt of you” after date two. You’ll be Googling polite ways to ghost." },
+  { id: 7, value: 1, matchValue: 5, difference: 4, sentence: "You said flirty banter. They said “trauma bond, let’s merge souls.” Ma’am, RUN. This one’s too hot." },
 
 
   
-  [{ id: 9, value: 1, difference: 0, sentence: "Two emotionally caffeinated introverts walk into a vibe... and immediately walk out to talk alone on a balcony. Perfect." },
-  { id: 9, value: 1, difference: 1, sentence: "You want 1-on-1s, they want party playlists. Expect heart-to-hearts next to subwoofers." },
-  { id: 9, value: 1, difference: 2, sentence: "You're about eye contact and intimacy, they want chill silence. Will the real connection please stand up?" },
-  { id: 9, value: 1, difference: 3, sentence: "You’re deep convos, they’re vanishing acts. You'll pour your soul out, they’ll ghost mid-sentence." },
-  { id: 9, value: 1, difference: 4, sentence: "You want deep 1-on-1s, they’re social with a curated invite list. You’re baring your soul, they’re curating guests." },
+  { id: 7, value: 2, matchValue: 1, difference: 1, sentence: "Flirty and chill? Great. Just hope they don’t vanish mid-convo ‘cause vibes felt too real." },
+  { id: 7, value: 2, matchValue: 2, difference: 0, sentence: "Two human golden retrievers. You’ll brunch, banter, and binge sitcoms without a single emotional landmine. Bliss." },
+  { id: 7, value: 2, matchValue: 3, difference: 1, sentence: "They’re grounded and clear — just enough depth to feel safe without swimming in feelings soup." },
+  { id: 7, value: 2, matchValue: 4, difference: 2, sentence: "They’ll crave eye-contact silences and poetic breakdowns. You just wanted a no-pressure coffee date, bro." },
+  { id: 7, value: 2, matchValue: 5, difference: 3, sentence: "They’ll trauma-dump on date one and say it’s fate. You’ll be Googling “exit strategies fast." },
 
-  { id: 9, value: 2, difference: 0, sentence: "Two chaotic extroverts. Your relationship will be powered by espresso shots and crowd energy." },
-  { id: 9, value: 2, difference: 1, sentence: "You're a party animal, they’re a soul-searcher. They’ll survive your parties by analyzing your friends." },
-  { id: 9, value: 2, difference: 2, sentence: "You bring the thunder, they bring the... couch. Who wins? Depends on Wi-Fi strength." },
-  { id: 9, value: 2, difference: 3, sentence: "You're stage diving, they’re hiding in the green room. Hope y’all have walkie-talkies." },
-  { id: 9, value: 2, difference: 4, sentence: "You're extrovert unlocked, they’re ‘only speak to 3 humans max.’ It’s giving crowd meets curated chaos." },
+  
+  { id: 7, value: 3, matchValue: 1, difference: 2, sentence: "They’ll flirt, charm, ghost, repeat. You’re out here trying to build something, not audition for Netflix." },
+  { id: 7, value: 3, matchValue: 2, difference: 1, sentence: "They’re sweet and steady, but might emotionally hover just out of reach when you’re craving depth." },
+  { id: 7, value: 3, matchValue: 3, difference: 0, sentence: "You both bring steady presence, not performative charm. It’s giving real connection, not dating for the plot." },
+  { id: 7, value: 3, matchValue: 4, difference: 1, sentence: "They’re deep, you’re grounded — it could work… if they stop mistaking silence for disinterest." },
+  { id: 7, value: 3, matchValue: 5, difference: 2, sentence: "They want soulmate chaos, you want mutual respect. They’ll say “twin flames,” you’ll say “therapy first.”" },
 
-  { id: 9, value: 3, difference: 0, sentence: "Both of you recharge by being human burritos at home. The world can wait." },
-  { id: 9, value: 3, difference: 1, sentence: "You fade out, they dive in. You're a power nap, they’re a power hour." },
-  { id: 9, value: 3, difference: 2, sentence: "You’re lowkey and cozy, they’re midkey and moody. It’s introvert jazz fusion." },
-  { id: 9, value: 3, difference: 3, sentence: "You want peace, they’re mysterious chaos. You’ll be left on read with love." },
-  { id: 9, value: 3, difference: 4, sentence: "You want quiet recovery, they want curated people. You’re in therapy, they’re in a group chat." },
+  
+  { id: 7, value: 4, matchValue: 1, difference: 3, sentence: "They’ll flirt, flake, then vanish mid-epiphany. You’re searching constellations; they’re swiping through sparkles. Keep walking." },
+  { id: 7, value: 4, matchValue: 2, difference: 2, sentence: "They’ll smile politely while you bleed metaphors. Safe, yes. Soul-stirring? Not unless you journal at them." },
+  { id: 7, value: 4, matchValue: 3, difference: 1, sentence: "They’ll show up, stay clear, and meet you halfway — maybe not cosmic, but beautifully real." },
+  { id: 7, value: 4, matchValue: 4, difference: 0, sentence: "Same wavelength, same heart radio. Conversations feel like poetry and emotional depth is your shared love language." },
+  { id: 7, value: 4, matchValue: 5, difference: 1, sentence: "You both feel hard, fast, and full — just don’t burn the house down from passion." },
 
-  { id: 9, value: 4, difference: 0, sentence: "Two ghosts. Y’all are gonna date for 6 months and never meet." },
-  { id: 9, value: 4, difference: 1, sentence: "You ghost, they vibe deeply. You’re Casper, they’re a TED Talk." },
-  { id: 9, value: 4, difference: 2, sentence: "You vanish, they stay home. It's a silent film relationship with no subtitles." },
-  { id: 9, value: 4, difference: 3, sentence: "You’re mysterious, they’re flaky. Who’s texting first? Probably neither." },
-  { id: 9, value: 4, difference: 4, sentence: "Ghost meets selectively extroverted? You’ll only see each other on leap years." },
+  
+  { id: 7, value: 5, matchValue: 1, difference: 4, sentence: "You’ll trauma-dump, they’ll flirt and ghost. You want confessions, they want surace level chemistry. A disaster in slow motion." },
+  { id: 7, value: 5, matchValue: 2, difference: 3, sentence: "You’ll bring a monologue, they’ll bring small talk. You crave soul bleed, they prefer schedule blocks." },
+  { id: 7, value: 5, matchValue: 3, difference: 2, sentence: "They’ll give you realness, just... responsibly. You’ll want to speed up what they like to pace." },
+  { id: 7, value: 5, matchValue: 4, difference: 1, sentence: "Soft yet sincere. They won’t burn wild, but they’ll stay up late decoding your emotional riddles." },
+  { id: 7, value: 5, matchValue: 5, difference: 0, sentence: "You both dive deep, fast. It's trauma-bonding or twin flames — either way, it’s fireworks or nothing." }
+],
 
-  { id: 9, value: 5, difference: 0, sentence: "Selective social meets selective social. A slow-burn friendship-to-lover arc incoming." },
-  { id: 9, value: 5, difference: 1, sentence: "You’re curated connection, they’re chaos energy. You'll be mentally editing their friend list." },
-  { id: 9, value: 5, difference: 2, sentence: "You're social with standards, they’re social with silence. It’s giving: 'Let’s text instead.'" },
-  { id: 9, value: 5, difference: 3, sentence: "You're a social introvert, they’re a flight risk. One of you talks, one disappears." },
-  { id: 9, value: 5, difference: 4, sentence: "You’re social by vetting, they’re just social by instinct. You bring logic, they bring vibes." }],
+
+  [
+  { id: 8, value: 1, matchValue: 1, difference: 0, sentence: "Perfect pair: flirty banter, no pressure, just vibes. Emotional avoidance in sync like synchronized swimmers." },
+  { id: 8, value: 1, matchValue: 2, difference: 1, sentence: "You’ll both vibe in autopilot mode — chill, low-effort, no drama. Danger: zero depth, zero growth." },
+  { id: 8, value: 1, matchValue: 3, difference: 2, sentence: "You’ll flirt, flow, then ghost each other by accident. No one leads, everyone mirrors — tragic comedy." },
+  { id: 8, value: 1, matchValue: 4, difference: 3, sentence: "You want playful charm, they want emotional poetry. Misaligned expectations = slow burn to disconnect." },
+  { id: 8, value: 1, matchValue: 5, difference: 4, sentence: "This one brings intense eye contact and soul questions. Our charm-lover just wanted cute banter, not therapy." },
+
+  // VALUE = 2 (wants their partner to lead)
+  { id: 8, value: 2, matchValue: 1, difference: 1, sentence: "You’ll both avoid drama like it’s tax season. Relaxed banter, no deep dives, good vibes only." },
+  { id: 8, value: 2, matchValue: 2, difference: 0, sentence: "You both want chill, low-effort peace. Zero fireworks, zero games — just comfy texts and weekend walks." },
+  { id: 8, value: 2, matchValue: 3, difference: 1, sentence: "You want ease, they want clarity. Could work — if nobody waits too long to speak first." },
+  { id: 8, value: 2, matchValue: 4, difference: 2, sentence: "You want chill, they want meaning. You’ll feel interrogated, they’ll feel bored. Misalignment incoming." },
+  { id: 8, value: 2, matchValue: 5, difference: 3, sentence: "You: peace and quiet. Them: heart surgeries via conversation. You’ll run, they’ll cry. Brutal but fair." },
+
+  // VALUE = 3 (wants to be the leader)
+  { id: 8, value: 3, matchValue: 1, difference: 2, sentence: "You’ll go, “Tell me how you really feel,” and they’ll panic and change the subject." },
+  { id: 8, value: 3, matchValue: 2, difference: 1, sentence: "You’ll crave depth, they’ll crave peace. You’ll ask how they feel, they’ll say “fine.”" },
+  { id: 8, value: 3, matchValue: 3, difference: 0, sentence: "You want realness, they want clarity. Nobody plays games, everyone communicates. Grounded eye contact incoming." },
+  { id: 8, value: 3, matchValue: 4, difference: 1, sentence: "You’ll both want meaning, but they’ll move faster. You’ll say “slow down,” they’ll say “but why?”" },
+  { id: 8, value: 3, matchValue: 5, difference: 2, sentence: "You: steady and grounded. They: intense and soul-hungry. You’ll feel cornered, they’ll feel emotionally starved." },
+
+  // VALUE = 4 (wants shared responsibility based on interest)
+  { id: 8, value: 4, matchValue: 1, difference: 3, sentence: "You’ll try to connect, they’ll dodge with jokes. You’ll soothe, they’ll squirm. Exhausting, but possible." },
+  { id: 8, value: 4, matchValue: 2, difference: 2, sentence: "You’ll check in emotionally, they’ll say “don’t overthink it.” You’ll spiral, they’ll go offline." },
+  { id: 8, value: 4, matchValue: 3, difference: 1, sentence: "You’ll overthink their silence. They’ll “match your vibe.” Everyone’s guessing, no one says what they feel." },
+  { id: 8, value: 4, matchValue: 4, difference: 0, sentence: "You speak fluent emotional depth. They want soul. You want real. You’ll build intimacy, not chase it." },
+  { id: 8, value: 4, matchValue: 5, difference: 1, sentence: "You’ll offer steady love. They’ll demand raw, full-access intensity. You’ll feel drained, they’ll call it “bonding.”" },
+
+  // VALUE = 5 (wants zero structure, just vibes)
+  { id: 8, value: 5, matchValue: 1, difference: 4, sentence: "You bring thunderclouds, they want clear skies. You’ll go deep, they’ll vanish. No bridge, just silence." },
+  { id: 8, value: 5, matchValue: 2, difference: 3, sentence: "You’ll want intensity and confusion. They’ll want a nap. You’ll spiral, they’ll leave you on read." },
+  { id: 8, value: 5, matchValue: 3, difference: 2, sentence: "You ghost, they ghost. You hint, they mirror. Vibes only, no plot. Emotional stalemate incoming." },
+  { id: 8, value: 5, matchValue: 4, difference: 1, sentence: "You love emotional whiplash, they crave soulful depth. Chaotic but poetic. Someone’s crying under moonlight, probably." },
+  { id: 8, value: 5, matchValue: 5, difference: 0, sentence: "You spiral, they cling. You disappear, they chase. Trauma-bond speedrun, but you’ll call it passion." }
+],
 
 
   
-  [{ id: 10, value: 1, difference: 0, sentence: "You both want cozy, consistent vibes. This relationship is basically a weighted blanket and a Netflix password." },
-  { id: 10, value: 1, difference: 1, sentence: "You want warm tea, they want hot sauce. It's cuddle energy meets chaos energy." },
-  { id: 10, value: 1, difference: 2, sentence: "You’re craving hugs, they’re craving Wi-Fi space. You might feel like you're dating a distant moon." },
-  { id: 10, value: 1, difference: 3, sentence: "You want comfort, they want a love that borderline spirals. Get ready to be softly obsessed." },
-  { id: 10, value: 1, difference: 4, sentence: "You want stability, they want space. You're building a home, they're Airbnb-hopping through feelings." },
+  [
+  // VALUE = 1 (wants deep 1-on-1 types)
+  { id: 9, value: 1, matchValue: 1, difference: 0, sentence: "Both of you are 1-on-1 over party any day. Deep talks, eye contact, emotional wi-fi—no small talk required." },
+  { id: 9, value: 1, matchValue: 2, difference: 1, sentence: "You want depth, they’re vibing in a group chat with 20 people. Might feel hard to get intimate attention." },
+  { id: 9, value: 1, matchValue: 3, difference: 2, sentence: "You love meaningful connection, they need alone time. You’ll click—but only in doses." },
+  { id: 9, value: 1, matchValue: 4, difference: 3, sentence: "You crave presence, they ghost on instinct. Might feel like bonding with a mirage." },
+  { id: 9, value: 1, matchValue: 5, difference: 4, sentence: "You want emotional depth, they’re social on hard mode: limited access, high intensity. Could feel distant." },
 
-  { id: 10, value: 2, difference: 0, sentence: "Two drama queens, one stage. Your love language is fireworks and emotional plot twists." },
-  { id: 10, value: 2, difference: 1, sentence: "You want intensity, they want calm. You're a telenovela, they're a yoga instructor." },
-  { id: 10, value: 2, difference: 2, sentence: "You’re loud, they’re quiet. You’ll be screaming ‘I love you!’ while they reply ‘K’." },
-  { id: 10, value: 2, difference: 3, sentence: "You want chaos, they want chaos too—but the functional kind. It's giving unstable soulmates." },
-  { id: 10, value: 2, difference: 4, sentence: "You want fireworks, they want fire exits. Might wanna check for emotional smoke alarms." },
+  // VALUE = 2 (wants wild, social, extro energy)
+  { id: 9, value: 2, matchValue: 1, difference: 1, sentence: "You’re here for chaos, they want calm intimacy. Opposites might attract—or tire each other out." },
+  { id: 9, value: 2, matchValue: 2, difference: 0, sentence: "Both of you are the life of the party. Dancefloor? Yes. Quiet dinner? Maybe later." },
+  { id: 9, value: 2, matchValue: 3, difference: 1, sentence: "You bring the volume, they need naps. May need to balance stimulation levels." },
+  { id: 9, value: 2, matchValue: 4, difference: 2, sentence: "You want wild fun, they RSVP to nothing. Might feel like shouting into the void." },
+  { id: 9, value: 2, matchValue: 5, difference: 3, sentence: "You love a big scene, they love their inner circle. Could work if you don't expect them at every party." },
 
-  { id: 10, value: 3, difference: 0, sentence: "Two chill people, one very quiet house. Y’all might accidentally ghost each other in the same room." },
-  { id: 10, value: 3, difference: 1, sentence: "You want chill, they want flames. You're building IKEA, they’re burning it down romantically." },
-  { id: 10, value: 3, difference: 2, sentence: "You want space, they want... more space. This isn’t a relationship, it’s a long-distance vibe." },
-  { id: 10, value: 3, difference: 3, sentence: "You want to vibe quietly, they want to vibe loudly. One of you is always napping." },
-  { id: 10, value: 3, difference: 4, sentence: "You want peace, they want a parachute. Emotional intimacy might feel like a group project." },
+  // VALUE = 3 (wants chill, homebody energy)
+  { id: 9, value: 3, matchValue: 1, difference: 2, sentence: "You want calm comfort, they want soul-deep convos. Compatible… if you’re well-rested." },
+  { id: 9, value: 3, matchValue: 2, difference: 1, sentence: "You’re here to cozy up, they’re out clubbing. May need solo recharge days after every hang." },
+  { id: 9, value: 3, matchValue: 3, difference: 0, sentence: "Two peace-seeking introverts? This is the stay-in-and-cook-dinner dream team." },
+  { id: 9, value: 3, matchValue: 4, difference: 1, sentence: "You want soft quiet, they ghost but in a cool way. Might vibe well in silence." },
+  { id: 9, value: 3, matchValue: 5, difference: 2, sentence: "You want homebody peace, they show up selectively. Could work if the circles overlap." },
 
-  { id: 10, value: 4, difference: 0, sentence: "Obsessed but stable? You two are either soulmates or an HBO series waiting to happen." },
-  { id: 10, value: 4, difference: 1, sentence: "You want romantic chaos, they want chill stability. You’re lovebombing while they’re sipping tea." },
-  { id: 10, value: 4, difference: 2, sentence: "You want intense connection, they want solo side quests. Possible miscommunication: high." },
-  { id: 10, value: 4, difference: 3, sentence: "You’re emotionally clingy with goals, they’re allergic to too much. Do not disturb signs might get involved." },
-  { id: 10, value: 4, difference: 4, sentence: "You’re spiraling in love, they’re spiraling in freedom. Emotional entropy imminent." },
+  // VALUE = 4 (wants mystery, unpredictability)
+  { id: 9, value: 4, matchValue: 1, difference: 3, sentence: "You want mysterious and moody, they’re emotionally accessible. Could feel too easy to figure out." },
+  { id: 9, value: 4, matchValue: 2, difference: 2, sentence: "You crave depth and intrigue, they’re vibing with everyone. Might feel too loud or obvious." },
+  { id: 9, value: 4, matchValue: 3, difference: 1, sentence: "You want erratic vibes, they just want to rest. Could be too mellow for your chase." },
+  { id: 9, value: 4, matchValue: 4, difference: 0, sentence: "Both of you are moody ghosts who text back after 2 days. A vibe. A power move. A haunted romance." },
+  { id: 9, value: 4, matchValue: 5, difference: 1, sentence: "You want mystery, they’re selective and sharp. This could be dangerously interesting." },
 
-  { id: 10, value: 5, difference: 0, sentence: "You both fear emotional jail time. You're like two commitment-phobes high-fiving across a casual situationship." },
-  { id: 10, value: 5, difference: 1, sentence: "You want lightness, they want stability. You’re a kite, they’re an anchor—and maybe that’s kinda hot." },
-  { id: 10, value: 5, difference: 2, sentence: "You’re light, they’re lighter. This love might float away if nobody ties it down." },
-  { id: 10, value: 5, difference: 3, sentence: "You want freedom, they want obsession. Warning: cling detected." },
-  { id: 10, value: 5, difference: 4, sentence: "You’re allergic to smothering, they want to be wrapped like a burrito. Mismatched love languages incoming." }]
+  // VALUE = 5 (wants selectively social partner)
+  { id: 9, value: 5, matchValue: 1, difference: 4, sentence: "You want quiet exclusivity, they’re emotionally open to everyone. Might feel too available for your taste." },
+  { id: 9, value: 5, matchValue: 2, difference: 3, sentence: "You like intimacy in a small circle, they love the whole friend group. Could be socially overwhelming." },
+  { id: 9, value: 5, matchValue: 3, difference: 2, sentence: "You both protect your energy, just in different ways. This might actually work if rhythms align." },
+  { id: 9, value: 5, matchValue: 4, difference: 1, sentence: "You’re a curated extrovert, they’re a part-time ghost. Feels exclusive, just slightly more unpredictable than you like." },
+  { id: 9, value: 5, matchValue: 5, difference: 0, sentence: "Both of you are selective social ninjas. Inner circle tight, bond tighter. 🔒" }
+],
+
+
+  
+  [
+  // VALUE = 1 (wants cozy, stable rhythm)
+  { id: 10, value: 1, matchValue: 1, difference: 0, sentence: "You both crave cozy consistency. Sunday naps, shared playlists, and mutual emotional Wi-Fi? Yes please." },
+  { id: 10, value: 1, matchValue: 2, difference: 1, sentence: "You want a chill romance, they’re a whole telenovela. Could be fun or completely exhausting." },
+  { id: 10, value: 1, matchValue: 3, difference: 2, sentence: "You want closeness, they’re giving casual minimalism. Might feel like loving through a fog." },
+  { id: 10, value: 1, matchValue: 4, difference: 3, sentence: "You want safety, they’re bringing intensity. Mutual obsession can work—but only if it’s grounded." },
+  { id: 10, value: 1, matchValue: 5, difference: 4, sentence: "You crave predictability, they crave freedom. Could feel like hugging a firework." },
+
+  // VALUE = 2 (wants passion & intensity)
+  { id: 10, value: 2, matchValue: 1, difference: 1, sentence: "You want fire, they’re giving fireplace. Cozy’s nice, but you might miss the drama." },
+  { id: 10, value: 2, matchValue: 2, difference: 0, sentence: "You both want a passionate plotline. Kisses, arguments, makeups—love with volume." },
+  { id: 10, value: 2, matchValue: 3, difference: 1, sentence: "You want fireworks, they’re in airplane mode. Might be thrilling at first, then... radio silence." },
+  { id: 10, value: 2, matchValue: 4, difference: 2, sentence: "You want chaos, they want controlled chaos. Could actually be the perfect disaster duo." },
+  { id: 10, value: 2, matchValue: 5, difference: 3, sentence: "You want high drama, they want to float freely. One of you might feel constantly chased—or trapped." },
+
+  // VALUE = 3 (wants space & low maintenance)
+  { id: 10, value: 3, matchValue: 1, difference: 2, sentence: "You want lots of space, they want a cozy cuddle bubble. Might feel a bit smothered if expectations clash." },
+  { id: 10, value: 3, matchValue: 2, difference: 1, sentence: "You want quiet, they want emotional rollercoasters. Better buckle up or set boundaries." },
+  { id: 10, value: 3, matchValue: 3, difference: 0, sentence: "You both want peace and independence. No pressure, just vibes and reliable check-ins." },
+  { id: 10, value: 3, matchValue: 4, difference: 1, sentence: "You’re low-maintenance, they want intense connection. Might need emotional Google Translate to align." },
+  { id: 10, value: 3, matchValue: 5, difference: 2, sentence: "You want chill, they want freedom—but from what? Might work if your definitions of ‘light’ match." },
+
+  // VALUE = 4 (wants mutual obsession that still functions)
+  { id: 10, value: 4, matchValue: 1, difference: 3, sentence: "You want obsessive closeness, they’re serving emotional stability. Might feel too tame to keep you hooked." },
+  { id: 10, value: 4, matchValue: 2, difference: 2, sentence: "You want romance with cling, they want high drama. Could be spicy—if you survive it." },
+  { id: 10, value: 4, matchValue: 3, difference: 1, sentence: "You crave intensity, they’re too chill. Could feel like loving a rock... a very calming rock." },
+  { id: 10, value: 4, matchValue: 4, difference: 0, sentence: "Obsessed with each other but still texting back? Dangerous combo. Might be your power-couple villain arc." },
+  { id: 10, value: 4, matchValue: 5, difference: 1, sentence: "You want emotional glue, they want freedom. You'll either smother them—or get ghosted mid-cuddle." },
+
+  // VALUE = 5 (wants freedom and lightness)
+  { id: 10, value: 5, matchValue: 1, difference: 4, sentence: "You want loose and light, they want cozy permanence. You might feel like a butterfly in a jar." },
+  { id: 10, value: 5, matchValue: 2, difference: 3, sentence: "You want space, they’re a dramatic musical. Might feel like dating an opera when you wanted lo-fi beats." },
+  { id: 10, value: 5, matchValue: 3, difference: 2, sentence: "You both like chill, but they’re even lower energy than you. Could feel emotionally sleepy." },
+  { id: 10, value: 5, matchValue: 4, difference: 1, sentence: "You want light vibes, they want intense connection. Might be hard to breathe if it gets clingy." },
+  { id: 10, value: 5, matchValue: 5, difference: 0, sentence: "Both of you are allergic to pressure. You’ll float together beautifully—or forget to text back for 3 days." }
+]
 
 ];

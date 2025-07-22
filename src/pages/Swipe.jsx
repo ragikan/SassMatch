@@ -43,6 +43,9 @@ export default function Swipe() {
       ? calculateCompatibility(loggedInUser, currentUser)
       : { AisBType: 0, BisAType: 0 };
 
+    const { BisAType, AisBType } = matchScore;
+
+
 
     // You already have: loggedInUser, currentUser
     let theyAreYourType = [];
@@ -69,6 +72,7 @@ if (
   theyAreYourType = loggedInPartner.map((ans, idx) => ({
     id: ans.id,
     value: ans.value ?? null,
+    matchValue: currentSelf[idx]?.value ?? null, 
     difference: Math.abs((ans.value ?? 0) - (currentSelf[idx]?.value ?? 0))
   }));
 
@@ -124,13 +128,14 @@ console.log("You are their type:", youAreTheirType);
 
           {/* Compatibility Score */}
           <div className="text-pink-300 text-sm mt-6 font-semibold">
-            You are <span className="text-white">{matchScore.BisAType}%</span> their type 💖 <br />
-            They are <span className="text-white">{matchScore.AisBType}%</span> your type 😍
+            You are <span className="text-white">{matchScore.AisBType}%</span> their type 💖 <br />
+            They are <span className="text-white">{matchScore.BisAType}%</span> your type 😍
           </div>
 
           <Report
          theyAreYourType={theyAreYourType}
          youAreTheirType={youAreTheirType}
+         BisAType={BisAType}
         />
         </div>
       ) : (
